@@ -14,7 +14,7 @@ import { coinbaseWallet } from "@rainbow-me/rainbowkit/wallets";
 import { http, WagmiProvider, createConfig } from "wagmi";
 import { base } from "wagmi/chains";
 
-const appName = "Web3 Starter Nextjs";
+const appName = "$SMART Token Claim";
 const projectId = process.env.NEXT_PUBLIC_WC_PROJECT_ID!;
 
 const connectors = connectorsForWallets(
